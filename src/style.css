@@ -1,0 +1,71 @@
+body {
+    background-color: #555;
+    height: 100%;
+    margin: 0;
+  }
+  
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.card {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #0f0c0c;
+    color: aliceblue;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 10PX auto;
+  }
+  
+.imagex, .name {
+    display: flex;
+    justify-content: center;
+  }
+
+.about {
+    margin: 0 20px;
+  }
+
+.Interest {
+    margin: 0 20px;
+  }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .button-white {
+    background-color: rgb(210, 217, 223);
+    color: #0f0c0c;
+    padding: 5px 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .button-blue {
+    background-color: rgb(109, 180, 242);
+    color: whitesmoke;
+    padding: 5px 17px;
+    margin-right: 5px;
+  }
+
+.foot {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #555;
+  }
+ 
+.face {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+.twitter {
+    padding-right: 10px;
+  }
