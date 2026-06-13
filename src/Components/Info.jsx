@@ -1,4 +1,4 @@
-import yola from "../Images/yola.jpg"
+import myNative from "../Images/myNative.jpg"
 import email from "../Images/email-icon.png"
 
 
@@ -10,7 +10,7 @@ export function Info () {
     return (
         <nav>
             <div className="imagex">
-                <img src= {yola} alt="photo" width={200} height={150}/>
+                <img src= {myNative} alt="photo" width={200} height={150}/>
             </div>
             <div>
                 <p className="name">Adebayo Dada</p>
